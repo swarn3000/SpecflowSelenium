@@ -31,7 +31,8 @@ namespace SeleniumProject
         [Then(@"I close browser")]
         public void ThenICloseBrowser()
         {
-            driver.Close();
+            //driver.Close();
+            driver.Quit();
             //ScenarioContext.Current.Pending();
         }
     }
